@@ -1,0 +1,207 @@
+<!--Technical Documentation Page-->
+<!--This page is build as per FreeCodeCamp curriculum, enjoy!-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            * {
+            box-sizing: border-box;
+            }
+
+            body {
+                font-family: Arial;
+                padding: 10px;
+                background: #f1f1f1;
+            }
+
+            /* Header/Blog Title */
+            .header {
+                padding: 30px;
+                text-align: center;
+                background: white;
+            }
+
+            .header h1 {
+                font-size: 50px;
+            }
+
+            /* Style the top navigation bar */
+            .topnav {
+                overflow: hidden;
+                background-color: #333;
+            }
+
+            /* Style the topnav links */
+            .topnav a {
+                float: left;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            /* Change color on hover */
+            .topnav a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+
+            /* Create two unequal columns that floats next to each other */
+            /* Left column */
+            .leftcolumn {   
+                float: left;
+                width: 25%;
+            }
+
+            /* Right column */
+            .rightcolumn {
+                float: left;
+                width: 75%;
+                background-color: #f1f1f1;
+                padding-left: 20px;
+            }
+
+            /* Fake image */
+            .fakeimg {
+                background-color: #aaa;
+                width: 100%;
+                padding: 20px;
+            }
+
+            /* Add a card effect for articles */
+            .card {
+                background-color: white;
+                padding: 20px;
+                margin-top: 20px;
+            }
+
+            /* Clear floats after the columns */
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            /* Footer */
+            .footer {
+                padding: 20px;
+                text-align: center;
+                background: #ddd;
+                margin-top: 20px;
+            }
+
+            /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+            @media screen and (max-width: 800px) {
+            .leftcolumn, .rightcolumn {   
+                    width: 100%;
+                    padding: 0;
+            }
+            }
+
+            /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+            @media screen and (max-width: 400px) {
+            .topnav a {
+                float: none;
+                width: 100%;
+            }
+            }
+        </style>
+    </head>
+    <body>
+        <!-- 
+            <nav class="topnav"  id="navbar">
+            <header>Crucial Hardware
+                <a href="#Gather_The_Crucial_Hardware" class="nav-link"> Gather The Crucial Hardware</a>
+            </header>
+                <a href="#Discharge_Static_Electricity_From_Body" class="nav-link">Discharge Static Electricity From Body</a>
+                <a href="#Gather_The_Necessary_Tools" class="nav-link">Gather The Necessary Tools</a>
+                <a href="#Install_the_hardware_into_their_respective_places" class="nav-link">Install The Hardware Into Their Respective Places</a>
+                <a href="#Properly_Connect_Them_and_Keep_The_Cable_Management_Tidy" class="nav-link">Properly Connect Them and Keep The Cable Management Tidy</a>  
+            <a href="#" style="float:right">Link</a>  
+        </nav>
+        --> 
+        <div class="row">
+                <div class="leftcolumn"> 
+                    <div class="card">
+                        <nav class="topnav"  id="navbar">
+                            <header>
+                                <a href="#Gather_The_Crucial_Hardware" class="nav-link"> Gather The Crucial Hardware</a>
+                            </header>
+                                <a href="#Discharge_Static_Electricity_From_Body" class="nav-link">Discharge Static Electricity From Body</a>
+                                <a href="#Gather_The_Necessary_Tools" class="nav-link">Gather The Necessary Tools</a>
+                                <a href="#Install_the_hardware_into_their_respective_places" class="nav-link">Install The Hardware Into Their Respective Places</a>
+                                <a href="#Properly_Connect_Them_and_Keep_The_Cable_Management_Tidy" class="nav-link">Properly Connect Them and Keep The Cable Management Tidy</a>  
+                            <!-- 
+                            <a href="#" style="float:right">Link</a> 
+                            -->  
+                        </nav>
+                    </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="header">
+                <h1>How to build a PC</h1>
+                
+                </div>
+            <main id="main-doc"> 
+                <div class="card"> 
+                    <section class="main-section" id="Gather_The_Crucial_Hardware">
+                        <header>Gather The Crucial Hardware</header>
+                        <p>Before you proceed look for these things.</p>
+                        <ol>
+                            <li>Check if all the packings are good.</li>
+                            <li>Do not open if any box's seal is seems to be broken.</li> 
+                            <li>Do not proceed without knowing what you are doing.</li>
+                            <li>Properly verify the bills for all the items.</li> 
+                            <li>If all looks good, you can began unboxing.</li>
+                        </ol>
+                        <code></code>
+                        <p>When you first build your pc make sure that you know exactly what you are doing before doing anything, otherwise you may ruin your hardware.</p>
+                    </section>
+                </div>
+                <div class="card">
+                    <section class="main-section" id="Discharge_Static_Electricity_From_Body">
+                        <header>Discharge Static Electricity From Body</header>
+                        <code></code>
+                        <p>Otherwise you may short it.</p>
+                        <p>Be very careful about that.</p>
+                        </div>
+                    </section>  
+                <div class="card">
+                    <section class="main-section" id="Gather_The_Necessary_Tools">
+                        <header>Gather The Necessary Tools</header>
+                        <code></code>
+                    
+                    <p>Otherwise you will be wandering about how to open stuff out</p>
+                    <p>Always keep the necessary tools before proceeding.</p>
+                    </section>
+                </div>
+                <div class="card">
+                    <section class="main-section" id="Install_the_hardware_into_their_respective_places">
+                        <header>Install the hardware into their respective places</header>
+                        <code></code>
+                        <p>After that screw it properly and firmly but make sure not to over tighten it.</p>
+                        <p>If you over tighten it yu may break threads.</p>
+                    </section>
+                </div>
+                <div class="card">
+                    <section class="main-section" id="Properly_Connect_Them_and_Keep_The_Cable_Management_Tidy">
+                        <header>Properly Connect Them and Keep The Cable Management Tidy</header>
+                        <code></code>
+                        <p>Otherwise it doesn't look professional and you may have a hard time plugging things inside there</p>
+                        <p>Also proper cable management helps in efficient cooling of the system because that way you keep the airflow proper.</p>
+                    </section>
+                </div>
+                </main>
+        </div>
+        </div>
+        <div class="footer">
+            <h2>Thank you for taking your time and reading it</h2>
+            <h3><em>Have a good day!</em></h3>
+        </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </body>
+</html>
+
+
